@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#logo{
+    height: 80px;
+    width: 90px;
+}
+
+.nav{
+    float: right;
+    margin-right: 10%;
+    margin-top:1%;
+}
+.nav a{
+    text-decoration: none;
+    color:beige;
+    padding: 5px;
+    border: 1px solid white;
+    margin-right: 5px;
+}
+.nav a:hover{
+    background-color: teal;
+    color: black;
+}
+#search{
+    height: 50px;
+    
+}
+
+body{
+    height: 750px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+form{
+    background-color: rgba(255, 255, 255, 0.44);
+    border: 2px solid green ;
+    margin-left: 40%;
+    margin-top: 3%;
+    margin-right: 6%;
+    margin-bottom: 50%;
+    padding: 3%;
+    color:black;
+    text-decoration: double;
+
+
+}
+.form label{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(35, 163, 213);
+    color: rgb(30, 9, 188);
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-content ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.footer-content ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-content ul li a:hover {
+    text-decoration: underline;
+    color: blue;
+}
